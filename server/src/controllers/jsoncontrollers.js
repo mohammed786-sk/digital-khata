@@ -6,7 +6,7 @@ export const getJson = (req,res) =>{
         });
 }
 
- export const postjson(req,res) =>{
+ export const postjson = (req,res) =>{
     res.status(200).json({"messsage":"Counter has its first request"});
 }
 
